@@ -1,0 +1,80 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  margin: 5%;
+}
+
+.card-holder {
+  height: 400px;
+  width: 1000px;
+  border: 10px solid rgb(190, 138, 177);
+  background-color: rgb(255, 192, 241);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: bottom;
+  align-items: bottom;
+}
+
+.text-container {
+  height: 50%;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-image-container {
+  height: 50%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-image-container .user-img {
+  width: 95%;
+  height: 95%;
+  object-fit: cover;
+}
+
+.user-name-container {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.user-name,
+.date-employed {
+  margin: 0;
+  margin-left: 3%;
+  font-size: 30px;
+  color: white;
+}
+
+.date-employed-container {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.id-number-container {
+  height: 50%;
+  width: 100%;
+  background-color: rgb(233, 175, 220);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.id-number-container .id-number {
+  width: fit-content;
+  height: fit-content;
+  margin: 0px;
+  font-size: 20px;
+  color: white;
+}
